@@ -15,9 +15,4 @@ public class AccessLogHandler {
 		Integer count = accessLogReader.readAccessLog(path);
 		
 	}
-	
-	public static void main(String[] args) {
-		AccessLogHandler accessLogHandler = new AccessLogHandler();
-		accessLogHandler.handleAccessLog();
-	}
 }

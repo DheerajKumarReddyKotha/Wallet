@@ -42,7 +42,7 @@ public class AccessLogReader {
 		return inputData.size();
 	}
 
-	private Long getEpoch(String dateStr) {
+	public Long getEpoch(String dateStr) {
 
 		Date date = null;
 		try {
