@@ -12,7 +12,7 @@ public class AccessLogHandler {
 		accessLogReader = new AccessLogReader();
 		
 		Path path = Paths.get("access.log");
-		Long count = accessLogReader.readAccessLog(path);
+		Integer count = accessLogReader.readAccessLog(path);
 		
 	}
 	

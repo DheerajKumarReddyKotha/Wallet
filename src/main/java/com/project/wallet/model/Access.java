@@ -3,16 +3,16 @@ package com.project.wallet.model;
 
 public class Access {
 
-	private String startDate;
+	private Long startDate;
 	private String ip;
 	private String request;
 	private String userAgent;
-	private int status;
+	private Integer status;
 	
-	public String getStartDate() {
+	public Long getStartDate() {
 		return startDate;
 	}
-	public void setStartDate(String startDate) {
+	public void setStartDate(Long startDate) {
 		this.startDate = startDate;
 	}
 	public String getIp() {
